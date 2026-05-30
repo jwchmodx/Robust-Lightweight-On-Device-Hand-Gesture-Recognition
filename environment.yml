@@ -1,0 +1,9 @@
+name: gesture
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - mediapipe==0.10.21
+      - tqdm
+      - imageio
+      - torch

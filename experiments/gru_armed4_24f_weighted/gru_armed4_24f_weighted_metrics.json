@@ -1,0 +1,39 @@
+{
+  "run_name": "gru_armed4_24f_weighted",
+  "task": "Armed-state 4-class gesture classifier",
+  "data_root": "data/model_ready/armed4_24f",
+  "class_names": [
+    "Doing other things",
+    "Swiping Up",
+    "Swiping Down",
+    "Stop Sign"
+  ],
+  "best_epoch": 49,
+  "best_val_accuracy": 0.9494430162810625,
+  "confusion_matrix": [
+    [
+      972,
+      8,
+      12,
+      8
+    ],
+    [
+      24,
+      375,
+      2,
+      1
+    ],
+    [
+      13,
+      7,
+      388,
+      13
+    ],
+    [
+      8,
+      1,
+      21,
+      481
+    ]
+  ]
+}
