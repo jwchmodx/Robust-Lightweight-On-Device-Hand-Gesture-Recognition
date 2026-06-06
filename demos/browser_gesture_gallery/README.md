@@ -6,7 +6,7 @@ This folder contains a standalone browser-camera gallery demo for the Armed12 dy
 
 - `armed12_browser_camera_server.py`: HTTPS/HTTP browser-camera demo server.
 - `armed12_gallery_demo.py`: shared model loading and gesture inference code.
-- `models/gru_armed4_24f_best.pt`: dynamic GRU checkpoint.
+- `models/gru_armed12_24f_best.pt`: dynamic GRU checkpoint.
 - `static/best_mlp.pt`, `label_to_id.json`, `mean.npy`, `std.npy`: static gesture checkpoint and normalization files.
 - `gallery/`: four sample images used by the gallery.
 

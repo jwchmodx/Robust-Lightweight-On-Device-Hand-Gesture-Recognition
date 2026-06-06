@@ -1,0 +1,10 @@
+condition,severity,w3_F1,mediapipe_F1,mediapipe_detrate
+clean,0.0,0.9741,0.8771,0.8615
+low_light,0.25,0.9702,0.8707,0.8519
+low_light,0.5,0.9599,0.7668,0.7125
+low_light,0.75,0.9207,0.5301,0.45
+low_light,1.0,0.8333,0.2274,0.1712
+motion_blur,0.25,0.923,0.7768,0.7529
+motion_blur,0.5,0.8476,0.6709,0.6096
+motion_blur,0.75,0.7299,0.5049,0.4635
+motion_blur,1.0,0.5673,0.3287,0.2817

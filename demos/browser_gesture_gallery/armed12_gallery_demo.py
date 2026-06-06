@@ -41,7 +41,7 @@ except ImportError:
 
 
 DEMO_ROOT = Path(__file__).resolve().parent
-DEFAULT_MODEL = DEMO_ROOT / "models" / "gru_armed4_24f_best.pt"
+DEFAULT_MODEL = DEMO_ROOT / "models" / "gru_armed12_24f_best.pt"
 DEFAULT_STATIC_MODEL = DEMO_ROOT / "static" / "best_mlp.pt"
 DEFAULT_STATIC_LABELS = DEMO_ROOT / "static" / "label_to_id.json"
 DEFAULT_STATIC_MEAN = DEMO_ROOT / "static" / "mean.npy"

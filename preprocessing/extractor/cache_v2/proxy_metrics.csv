@@ -1,0 +1,5 @@
+model,params,MMACs,size_fp32_MB,size_int8_MB,params_vs_MP_landmark
+student_w1,59850,,0.24,0.06,33.4x
+student_w3,471306,,1.89,0.47,4.2x
+MediaPipe landmark-only,2000000,,8.0,2.0,1.0x
+MediaPipe full (palm+landmark),3760000,,15.04,3.76,0.5x

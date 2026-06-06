@@ -1,0 +1,33 @@
+[data] train=78000 val=13000 robust=False
+[model] width=1.0 params=59,850
+ep01 train_loss=0.07955 val_nme=0.1020 val_F1=0.2781 val_acc=0.3156 *
+ep02 train_loss=0.04950 val_nme=0.0802 val_F1=0.5482 val_acc=0.5674 *
+ep03 train_loss=0.03961 val_nme=0.0699 val_F1=0.7450 val_acc=0.7469 *
+ep04 train_loss=0.03490 val_nme=0.0671 val_F1=0.7328 val_acc=0.7339
+ep05 train_loss=0.03198 val_nme=0.0604 val_F1=0.8270 val_acc=0.8266 *
+ep06 train_loss=0.02972 val_nme=0.0555 val_F1=0.8492 val_acc=0.8482 *
+ep07 train_loss=0.02808 val_nme=0.0544 val_F1=0.8438 val_acc=0.8427
+ep08 train_loss=0.02670 val_nme=0.0519 val_F1=0.8879 val_acc=0.8878 *
+ep09 train_loss=0.02569 val_nme=0.0506 val_F1=0.8901 val_acc=0.8898 *
+ep10 train_loss=0.02483 val_nme=0.0481 val_F1=0.8977 val_acc=0.8975 *
+ep11 train_loss=0.02409 val_nme=0.0456 val_F1=0.9079 val_acc=0.9078 *
+ep12 train_loss=0.02352 val_nme=0.0480 val_F1=0.9072 val_acc=0.9066
+ep13 train_loss=0.02294 val_nme=0.0465 val_F1=0.9173 val_acc=0.9174 *
+ep14 train_loss=0.02249 val_nme=0.0458 val_F1=0.9062 val_acc=0.9063
+ep15 train_loss=0.02205 val_nme=0.0454 val_F1=0.9172 val_acc=0.9172
+ep16 train_loss=0.02166 val_nme=0.0436 val_F1=0.9185 val_acc=0.9185 *
+ep17 train_loss=0.02123 val_nme=0.0422 val_F1=0.9236 val_acc=0.9233 *
+ep18 train_loss=0.02091 val_nme=0.0413 val_F1=0.9308 val_acc=0.9308 *
+ep19 train_loss=0.02062 val_nme=0.0425 val_F1=0.9250 val_acc=0.9248
+ep20 train_loss=0.02025 val_nme=0.0402 val_F1=0.9328 val_acc=0.9327 *
+ep21 train_loss=0.02000 val_nme=0.0398 val_F1=0.9381 val_acc=0.9381 *
+ep22 train_loss=0.01972 val_nme=0.0394 val_F1=0.9343 val_acc=0.9341
+ep23 train_loss=0.01947 val_nme=0.0396 val_F1=0.9365 val_acc=0.9363
+ep24 train_loss=0.01929 val_nme=0.0395 val_F1=0.9414 val_acc=0.9414 *
+ep25 train_loss=0.01906 val_nme=0.0388 val_F1=0.9393 val_acc=0.9392
+ep26 train_loss=0.01887 val_nme=0.0382 val_F1=0.9402 val_acc=0.9401
+ep27 train_loss=0.01877 val_nme=0.0381 val_F1=0.9428 val_acc=0.9427 *
+ep28 train_loss=0.01865 val_nme=0.0380 val_F1=0.9427 val_acc=0.9427
+ep29 train_loss=0.01860 val_nme=0.0379 val_F1=0.9425 val_acc=0.9425
+ep30 train_loss=0.01852 val_nme=0.0379 val_F1=0.9417 val_acc=0.9416
+[done] best val_F1=0.9428  (frozen-MLP target=0.99114)

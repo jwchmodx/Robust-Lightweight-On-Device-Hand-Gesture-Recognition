@@ -32,6 +32,16 @@ from torch.utils.data import DataLoader, Dataset
 from tqdm import tqdm
 
 
+ROBUST_ROOT = Path(__file__).resolve().parents[2]
+
+
+def resolve_path(path: str | Path) -> Path:
+    path = Path(path)
+    if path.is_absolute():
+        return path
+    return ROBUST_ROOT / path
+
+
 def set_seed(seed: int) -> None:
     random.seed(seed)
     np.random.seed(seed)
@@ -321,7 +331,7 @@ def main() -> None:
     args = parser.parse_args()
     set_seed(args.seed)
 
-    data_root = Path(args.data_root)
+    data_root = resolve_path(args.data_root)
 
     train_dataset = GestureDataset(
         x_path=data_root / "X_train.npy",
@@ -407,8 +417,8 @@ def main() -> None:
         lr=args.learning_rate,
     )
 
-    model_dir = Path(args.model_dir)
-    output_dir = Path(args.output_dir)
+    model_dir = resolve_path(args.model_dir)
+    output_dir = resolve_path(args.output_dir)
     model_dir.mkdir(parents=True, exist_ok=True)
     output_dir.mkdir(parents=True, exist_ok=True)
 
@@ -425,6 +435,27 @@ def main() -> None:
     best_confusion: torch.Tensor | None = None
     best_epoch = 0
     epochs_without_improvement = 0
+
+    if args.epochs <= 0:
+        verify_path = output_dir / "verify_armed4_train_gru.json"
+        verify = {
+            "mode": "verify_only",
+            "status": "ok",
+            "data_root": str(data_root),
+            "num_classes": num_classes,
+            "class_names": class_names,
+            "train_samples": len(train_dataset),
+            "val_samples": len(val_dataset),
+            "sequence_length": sequence_length,
+            "input_size": input_size,
+            "parameter_count": parameter_count,
+        }
+        with verify_path.open("w", encoding="utf-8") as f:
+            json.dump(verify, f, indent=2, ensure_ascii=False)
+        print("\n=== Verify only ===")
+        print("epochs <= 0, skipped training and validation.")
+        print(f"Verification summary saved to: {verify_path}")
+        return
 
     print("\n=== Training ===")
 

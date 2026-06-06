@@ -1,0 +1,82 @@
+[eval] 3900 full test images
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:1780746391.932853  479304 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:1780746391.950222  479319 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1780746391.956575  479307 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1780746391.970007  479323 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:1780746392.007796  479349 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1780746392.023608  479355 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:1780746392.054429  479361 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1780746392.076714  479367 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:1780746392.207177  479407 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+W0000 00:00:1780746392.227028  479407 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:1780746392.237296  479417 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1780746392.254256  479422 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:1780746392.310796  479446 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1780746392.327731  479446 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:1780746392.416323  479495 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+W0000 00:00:1780746392.435590  479488 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:1780746392.443328  479512 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1780746392.462593  479512 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:1780746392.516066  479530 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1780746392.532243  479530 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:1780746392.618625  479568 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1780746392.632560  479568 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:1780746392.651603  479583 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1780746392.665301  479583 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1780746397.436100  479304 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1780746397.634319  479328 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1780746397.825605  479352 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1780746398.065394  479361 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1780746398.297090  479415 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1780746398.551653  479425 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1780746398.813503  479453 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1780746399.086336  479496 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1780746399.435283  479517 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1780746399.757967  479532 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1780746400.150562  479569 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1780746400.583996  479582 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+   {'condition': 'clean', 'severity': 0.0, 'w3clean_F1': 0.9795, 'w3robust_F1': 0.9775, 'w1robust_F1': 0.9158, 'mediapipe_F1': 0.9332, 'mp_detrate': 0.9574}
+   {'condition': 'low_light', 'severity': 0.25, 'w3clean_F1': 0.9767, 'w3robust_F1': 0.9777, 'w1robust_F1': 0.9166, 'mediapipe_F1': 0.9296, 'mp_detrate': 0.9533}
+   {'condition': 'low_light', 'severity': 0.5, 'w3clean_F1': 0.9636, 'w3robust_F1': 0.9762, 'w1robust_F1': 0.9125, 'mediapipe_F1': 0.9124, 'mp_detrate': 0.9272}
+   {'condition': 'low_light', 'severity': 0.75, 'w3clean_F1': 0.9347, 'w3robust_F1': 0.9695, 'w1robust_F1': 0.9042, 'mediapipe_F1': 0.8704, 'mp_detrate': 0.8654}
+   {'condition': 'low_light', 'severity': 1.0, 'w3clean_F1': 0.8548, 'w3robust_F1': 0.9584, 'w1robust_F1': 0.8766, 'mediapipe_F1': 0.7755, 'mp_detrate': 0.7295}
+   {'condition': 'motion_blur', 'severity': 0.25, 'w3clean_F1': 0.9422, 'w3robust_F1': 0.9736, 'w1robust_F1': 0.9113, 'mediapipe_F1': 0.9067, 'mp_detrate': 0.9313}
+   {'condition': 'motion_blur', 'severity': 0.5, 'w3clean_F1': 0.8817, 'w3robust_F1': 0.9679, 'w1robust_F1': 0.9012, 'mediapipe_F1': 0.8651, 'mp_detrate': 0.8846}
+   {'condition': 'motion_blur', 'severity': 0.75, 'w3clean_F1': 0.8012, 'w3robust_F1': 0.955, 'w1robust_F1': 0.8788, 'mediapipe_F1': 0.8098, 'mp_detrate': 0.8221}
+   {'condition': 'motion_blur', 'severity': 1.0, 'w3clean_F1': 0.6786, 'w3robust_F1': 0.9342, 'w1robust_F1': 0.8448, 'mediapipe_F1': 0.7015, 'mp_detrate': 0.7195}
+
+[done] -> cache_v2/full_frame_sweep.csv
+   condition  severity  w3clean_F1  w3robust_F1  w1robust_F1  mediapipe_F1  mp_detrate
+      clean      0.00      0.9795       0.9775       0.9158        0.9332      0.9574
+  low_light      0.25      0.9767       0.9777       0.9166        0.9296      0.9533
+  low_light      0.50      0.9636       0.9762       0.9125        0.9124      0.9272
+  low_light      0.75      0.9347       0.9695       0.9042        0.8704      0.8654
+  low_light      1.00      0.8548       0.9584       0.8766        0.7755      0.7295
+motion_blur      0.25      0.9422       0.9736       0.9113        0.9067      0.9313
+motion_blur      0.50      0.8817       0.9679       0.9012        0.8651      0.8846
+motion_blur      0.75      0.8012       0.9550       0.8788        0.8098      0.8221
+motion_blur      1.00      0.6786       0.9342       0.8448        0.7015      0.7195

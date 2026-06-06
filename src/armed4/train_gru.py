@@ -32,6 +32,15 @@ CONTROL_LABELS = [
     "Stop Sign",
 ]
 
+ROBUST_ROOT = Path(__file__).resolve().parents[2]
+
+
+def resolve_path(path: str | Path) -> Path:
+    path = Path(path)
+    if path.is_absolute():
+        return path
+    return ROBUST_ROOT / path
+
 
 def set_seed(seed: int) -> None:
     random.seed(seed)
@@ -414,8 +423,8 @@ def main() -> None:
 
     set_seed(args.seed)
 
-    train_annotation_path = Path(args.train_annotation)
-    val_annotation_path = Path(args.val_annotation)
+    train_annotation_path = resolve_path(args.train_annotation)
+    val_annotation_path = resolve_path(args.val_annotation)
 
     train_annotation_labels = read_annotation_labels(train_annotation_path)
     val_annotation_labels = read_annotation_labels(val_annotation_path)
@@ -445,8 +454,8 @@ def main() -> None:
         raise ValueError(f"Annotation에 존재하지 않는 라벨: {missing_labels}")
 
     train_dataset = prepare_split(
-        x_path=Path(args.train_x),
-        y_path=Path(args.train_y),
+        x_path=resolve_path(args.train_x),
+        y_path=resolve_path(args.train_y),
         annotation_path=train_annotation_path,
         original_label_map=original_label_map,
         target_labels=target_labels,
@@ -454,8 +463,8 @@ def main() -> None:
     )
 
     val_dataset = prepare_split(
-        x_path=Path(args.val_x),
-        y_path=Path(args.val_y),
+        x_path=resolve_path(args.val_x),
+        y_path=resolve_path(args.val_y),
         annotation_path=val_annotation_path,
         original_label_map=original_label_map,
         target_labels=target_labels,
@@ -512,8 +521,8 @@ def main() -> None:
         lr=args.learning_rate,
     )
 
-    model_dir = Path(args.model_dir)
-    output_dir = Path(args.output_dir)
+    model_dir = resolve_path(args.model_dir)
+    output_dir = resolve_path(args.output_dir)
 
     model_dir.mkdir(parents=True, exist_ok=True)
     output_dir.mkdir(parents=True, exist_ok=True)
